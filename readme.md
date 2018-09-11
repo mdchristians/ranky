@@ -1,9 +1,9 @@
 <div align="center">
-	<br>
-	<br>
-	<img width="400" src="media/ranky.svg" alt="Ranky">
-	<br>
-	<br>
+  <br>
+  <br>
+  <img width="400" src="media/ranky.svg" alt="Ranky">
+  <br>
+  <br>
 </div>
 
 > Rank an array of objects with support for value ties and tie breakers
@@ -22,29 +22,29 @@ const ranky = require('rankyjs');
 
 // Input data
 const data = [
-	{ name: 'Ken Morrow', goals: 13, assists: 13, points: 26 },
-	{ name: 'Mark Johnson', goals: 8, assists: 10, points: 18 },
-	{ name: 'Mike Ramsey', goals: 15, assists: 6, points: 21 },
-	{ name: 'Mike Eruzione', goals: 15, assists: 10, points: 25 },
-	{ name: 'Dave Silk', goals: 21, assists: 8, points: 29 }
+  { name: 'Ken Morrow', goals: 13, assists: 13, points: 26 },
+  { name: 'Mark Johnson', goals: 8, assists: 10, points: 18 },
+  { name: 'Mike Ramsey', goals: 15, assists: 6, points: 21 },
+  { name: 'Mike Eruzione', goals: 15, assists: 10, points: 25 },
+  { name: 'Dave Silk', goals: 21, assists: 8, points: 29 }
 ];
 
 (async () => {
-	const options = {
-		arr: data,
-		key: 'points'
-	};
+  const options = {
+    arr: data,
+    key: 'points'
+  };
 
-	const rankings = await ranky(options);
+  const rankings = await ranky(options);
 
-	console.log(rankings);
-	  // [
-	  // 	{ name: 'Mark Johnson', goals: 8, assists: 10, points: 18, pos: 1, rank: 1 },
-    // 	{ name: 'Mike Ramsey', goals: 15, assists: 6, points: 21, pos: 2, rank: 2 },
-    // 	{ name: 'Mike Eruzione', goals: 15, assists: 10, points: 25, pos: 3, rank: 3 },
-    // 	{ name: 'Ken Morrow', goals: 13, assists: 13, points: 26, pos: 4, rank: 4 },
-    // 	{ name: 'Dave Silk', goals: 21, assists: 8, points: 29, pos: 5, rank: 5 }
-	  // ]
+  console.log(rankings);
+    // [
+    //  { name: 'Mark Johnson', goals: 8, assists: 10, points: 18, pos: 1, rank: 1 },
+    //  { name: 'Mike Ramsey', goals: 15, assists: 6, points: 21, pos: 2, rank: 2 },
+    //  { name: 'Mike Eruzione', goals: 15, assists: 10, points: 25, pos: 3, rank: 3 },
+    //  { name: 'Ken Morrow', goals: 13, assists: 13, points: 26, pos: 4, rank: 4 },
+    //  { name: 'Dave Silk', goals: 21, assists: 8, points: 29, pos: 5, rank: 5 }
+    // ]
 })();
 ```
 
