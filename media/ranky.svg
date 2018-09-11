@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1282px" height="704px" viewBox="0 0 1282 704" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#F30F58" offset="0%"></stop>
+            <stop stop-color="#F8A26D" offset="48.2368988%"></stop>
+            <stop stop-color="#F3E479" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-size="500" font-family="KoolBeans, Kool Beans" font-weight="normal">
+        <g id="Artboard" fill="url(#linearGradient-1)">
+            <text id="Ranky">
+                <tspan x="57" y="467">Ranky</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,31 @@
+{
+  "name": "rankyjs",
+  "version": "1.0.0",
+  "description": "Rank an array of objects with support for value ties and tie breakers",
+  "license": "MIT",
+  "repository": "mdchristians/ranky",
+  "author": "Matt Christians <christians.matt@gmail.com> (https://matt.tc)",
+  "scripts": {
+    "test": "jest"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "array",
+    "sort",
+    "rank"
+  ],
+  "dependencies": {
+    "type-of": "^2.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.4.2",
+    "jest": "^23.5.0",
+    "regenerator-runtime": "^0.12.1"
+  },
+  "jest": {
+    "verbose": true
+  }
+}
