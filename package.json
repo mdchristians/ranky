@@ -17,6 +17,7 @@
     "rank"
   ],
   "dependencies": {
+    "lodash.orderby": "^4.6.0",
     "type-of": "^2.0.1"
   },
   "devDependencies": {
