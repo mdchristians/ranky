@@ -1,7 +1,7 @@
 <div align="center">
   <br>
   <br>
-  <img width="400" src="media/ranky.svg" alt="Ranky">
+  <img width="400" height="200" src="media/ranky.svg" alt="Ranky">
   <br>
   <br>
 </div>
