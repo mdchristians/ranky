@@ -1,5 +1,3 @@
-'use strict';
-
 const type = require('type-of');
 const orderBy = require('lodash.orderBy');
 
