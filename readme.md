@@ -8,6 +8,8 @@
 
 > Rank an array of objects with support for value ties and tie breakers
 
+[![Build Status](https://travis-ci.org/mdchristians/ranky.svg?branch=master)](https://travis-ci.org/mdchristians/ranky)
+
 ## Install
 
 ```
